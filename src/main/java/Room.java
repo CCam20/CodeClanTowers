@@ -1,21 +1,19 @@
 import java.util.ArrayList;
 
-public abstract class Room {
+public class Room {
 
-    private int capacity;
+//    private int capacity;
     private ArrayList<Guest> guestsInRoom;
+    Guest guest;
+    private RoomType roomType;
 
-    public Room(int capacity, ArrayList<Guest>guestsInRoom) {
-        this.capacity = capacity;
-        this.guestsInRoom = guestsInRoom;
+    public Room(RoomType roomType) {
+        this.guestsInRoom = new ArrayList<>();
+        this.roomType = roomType;
     }
 
-    public int getCapacity() {
-        return this.capacity;
-    }
-
-    public void setCapacity(int capacity) {
-        this.capacity = capacity;
+    public int getCapacityFromEnum() {
+       return this.roomType.getCapacity();
     }
 
     public ArrayList<Guest> getGuestsInRoom() {
@@ -24,6 +22,10 @@ public abstract class Room {
 
     public void setGuestsInRoom(ArrayList<Guest> guestsInRoom) {
         this.guestsInRoom = guestsInRoom;
+    }
+
+    public RoomType getRoomType(){
+        return this.roomType;
     }
 }
 
