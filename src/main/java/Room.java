@@ -1,8 +1,7 @@
 import java.util.ArrayList;
 
-public class Room {
+public abstract class Room {
 
-//    private int capacity;
     private ArrayList<Guest> guestsInRoom;
     Guest guest;
     private RoomType roomType;
@@ -26,6 +25,15 @@ public class Room {
 
     public RoomType getRoomType(){
         return this.roomType;
+    }
+    public void checkInGuest(Guest guest){
+       this.guestsInRoom.add(guest);
+    }
+    public void checkOutGuest(Guest guest) {
+        this.guestsInRoom.remove(guest);
+    }
+    public int checkGuestsInRoom() {
+        return this.guestsInRoom.size();
     }
 }
 

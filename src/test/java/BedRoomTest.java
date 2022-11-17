@@ -9,18 +9,23 @@ public class BedRoomTest {
     BedRoom bedroom;
     ArrayList<Guest> guestsInRoom;
     Guest guest1;
-//    Room room;
 
 
     @Before
     public void before(){
-        guest1 = new Guest("Randolf");
-        guestsInRoom = new ArrayList<>();
         bedroom = new BedRoom(RoomType.DOUBLE, 102);
     }
     @Test
-    public void bedroomHasCapacity() {
+    public void bedroomHasType() {
 //    assertEquals(2, room.getCapacityFromEnum());}
         assertEquals(RoomType.DOUBLE,bedroom.getRoomType());
+    }
+    @Test
+    public void bedRoomHasRoomNumber(){
+        assertEquals(102, bedroom.getRoomNumber());
+    }
+    @Test
+    public void getBedroomCapacityFromEnum(){
+        assertEquals(2, bedroom.getCapacityFromEnum());
     }
 }
