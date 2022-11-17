@@ -4,7 +4,8 @@ public enum RoomType {
     TRIPLE(3, 3),
     FAMILY(4, 4),
     MEETING(5, 10),
-    EVENT(6, 50);
+    EVENT(6, 50),
+    DININGROOM(7, 100);
     private final int value;
     private final int capacity;
 

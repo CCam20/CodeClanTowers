@@ -11,10 +11,21 @@ public class BookingsTest {
     @Before
     public void before(){
         bedRoom = new BedRoom(RoomType.SINGLE, 101);
-        bookings = new Bookings(bedRoom, 1);
+        bookings = new Bookings(bedRoom, 3, 85);
     }
     @Test
     public void doesBookingHaveNightsBooked(){
-        assertEquals(1, bookings.getNightsBooked());
+        assertEquals(3, bookings.getNightsBooked());
     }
+    @Test
+    public void bookingHasNightlyRate(){
+        bookings.setRate(85);
+        assertEquals(85, bookings.getRate());
+    }
+    @Test
+    public void checkTotalCost(){
+        assertEquals(255, bookings.getTotalCost());
+
+    }
+
 }

@@ -6,7 +6,6 @@ public class BedRoom extends Room{
 
     public BedRoom(RoomType roomType, int roomNum){
         super(roomType);
-//        this.roomType = roomType;
         this.roomNum = roomNum;
     }
 

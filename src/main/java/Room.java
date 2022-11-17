@@ -15,9 +15,6 @@ public abstract class Room {
        return this.roomType.getCapacity();
     }
 
-    public ArrayList<Guest> getGuestsInRoom() {
-        return guestsInRoom;
-    }
 
     public void setGuestsInRoom(ArrayList<Guest> guestsInRoom) {
         this.guestsInRoom = guestsInRoom;
