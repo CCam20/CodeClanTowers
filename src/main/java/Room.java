@@ -9,5 +9,21 @@ public abstract class Room {
         this.capacity = capacity;
         this.guestsInRoom = guestsInRoom;
     }
+
+    public int getCapacity() {
+        return this.capacity;
+    }
+
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
+    }
+
+    public ArrayList<Guest> getGuestsInRoom() {
+        return guestsInRoom;
+    }
+
+    public void setGuestsInRoom(ArrayList<Guest> guestsInRoom) {
+        this.guestsInRoom = guestsInRoom;
+    }
 }
 

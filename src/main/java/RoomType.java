@@ -1,15 +1,15 @@
 public enum RoomType {
-    SINGLE(1, 1),
-    DOUBLE(2, 2),
-    TRIPLE(3, 3),
-    FAMILY(4, 4);
+    SINGLE(1),
+    DOUBLE(2),
+    TRIPLE(3),
+    FAMILY(4);
 
     private final int value;
-    private final int capacity;
+//    private final int capacity;
 
-    RoomType(int value, int capacity){
+    RoomType(int value){
         this.value = value;
-        this.capacity = capacity;
+//        this.capacity = capacity;
     }
 
     public int getValue() {
@@ -17,7 +17,7 @@ public enum RoomType {
     }
 
 
-    public int getCapacity() {
-        return capacity;
-    }
+//    public int getCapacity() {
+//        return capacity;
+//    }
 }
