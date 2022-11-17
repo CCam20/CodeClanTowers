@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18b64c5d-d069-48c8-9532-9f337e3e381c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DiningRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DiningRoomTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BedRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BedRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bookings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bookings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ConferenceRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConferenceRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RoomType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RoomType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BookingsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookingsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DiningRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DiningRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DiningRoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DiningRoomTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

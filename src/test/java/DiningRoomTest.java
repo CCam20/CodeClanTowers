@@ -7,14 +7,11 @@ public class DiningRoomTest {
 
     DiningRoom diningRoom;
     Guest guest;
-    Room room;
-
 
     @Before
     public void before(){
         diningRoom = new DiningRoom( "DiningRoom1", RoomType.DININGROOM);
         guest = new Guest("Colin");
-//        room.getGuestsInRoom();
     }
     @Test
     public void diningRoomHasName(){
