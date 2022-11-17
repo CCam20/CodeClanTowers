@@ -1,8 +1,8 @@
 public enum RoomType {
-    SINGLE(1),
-    DOUBLE(2),
-    TRIPLE(3),
-    FAMILY(4);
+    SINGLE(1, 1),
+    DOUBLE(2, 2),
+    TRIPLE(3, 3),
+    FAMILY(4, 4);
 
     private final int value;
     private final int capacity;
